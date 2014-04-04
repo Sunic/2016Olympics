@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805F965318EED0EF009E845D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805F965218EED0EF009E845D /* Foundation.framework */; };
+		805F965518EED0EF009E845D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805F965418EED0EF009E845D /* CoreGraphics.framework */; };
+		805F965718EED0EF009E845D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805F965618EED0EF009E845D /* UIKit.framework */; };
+		805F965D18EED0EF009E845D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 805F965B18EED0EF009E845D /* InfoPlist.strings */; };
+		805F965F18EED0EF009E845D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 805F965E18EED0EF009E845D /* main.m */; };
+		805F966318EED0EF009E845D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 805F966218EED0EF009E845D /* AppDelegate.m */; };
+		805F966618EED0EF009E845D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805F966418EED0EF009E845D /* Main_iPhone.storyboard */; };
+		805F966918EED0EF009E845D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805F966718EED0EF009E845D /* Main_iPad.storyboard */; };
+		805F966C18EED0EF009E845D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805F966B18EED0EF009E845D /* ViewController.m */; };
+		805F966E18EED0EF009E845D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805F966D18EED0EF009E845D /* Images.xcassets */; };
+		805F967518EED0EF009E845D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805F967418EED0EF009E845D /* XCTest.framework */; };
+		805F967618EED0EF009E845D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805F965218EED0EF009E845D /* Foundation.framework */; };
+		805F967718EED0EF009E845D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805F965618EED0EF009E845D /* UIKit.framework */; };
+		805F967F18EED0EF009E845D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 805F967D18EED0EF009E845D /* InfoPlist.strings */; };
+		805F968118EED0EF009E845D /* _016OlympicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 805F968018EED0EF009E845D /* _016OlympicsTests.m */; };
+		805F968D18EED111009E845D /* libBusinessLogicLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 805F968C18EED111009E845D /* libBusinessLogicLayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805F967818EED0EF009E845D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805F964718EED0EF009E845D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805F964E18EED0EF009E845D;
+			remoteInfo = 2016Olympics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805F964F18EED0EF009E845D /* 2016Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2016Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805F965218EED0EF009E845D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		805F965418EED0EF009E845D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		805F965618EED0EF009E845D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		805F965A18EED0EF009E845D /* 2016Olympics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2016Olympics-Info.plist"; sourceTree = "<group>"; };
+		805F965C18EED0EF009E845D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		805F965E18EED0EF009E845D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		805F966018EED0EF009E845D /* 2016Olympics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2016Olympics-Prefix.pch"; sourceTree = "<group>"; };
+		805F966118EED0EF009E845D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		805F966218EED0EF009E845D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		805F966518EED0EF009E845D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		805F966818EED0EF009E845D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		805F966A18EED0EF009E845D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		805F966B18EED0EF009E845D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		805F966D18EED0EF009E845D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		805F967318EED0EF009E845D /* 2016OlympicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2016OlympicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805F967418EED0EF009E845D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		805F967C18EED0EF009E845D /* 2016OlympicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2016OlympicsTests-Info.plist"; sourceTree = "<group>"; };
+		805F967E18EED0EF009E845D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		805F968018EED0EF009E845D /* _016OlympicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _016OlympicsTests.m; sourceTree = "<group>"; };
+		805F968C18EED111009E845D /* libBusinessLogicLayer.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libBusinessLogicLayer.a; path = "../BusinessLogicLayer/build/Debug-iphoneos/libBusinessLogicLayer.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805F964C18EED0EF009E845D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805F968D18EED111009E845D /* libBusinessLogicLayer.a in Frameworks */,
+				805F965518EED0EF009E845D /* CoreGraphics.framework in Frameworks */,
+				805F965718EED0EF009E845D /* UIKit.framework in Frameworks */,
+				805F965318EED0EF009E845D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805F967018EED0EF009E845D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805F967518EED0EF009E845D /* XCTest.framework in Frameworks */,
+				805F967718EED0EF009E845D /* UIKit.framework in Frameworks */,
+				805F967618EED0EF009E845D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805F964618EED0EF009E845D = {
+			isa = PBXGroup;
+			children = (
+				805F965818EED0EF009E845D /* 2016Olympics */,
+				805F967A18EED0EF009E845D /* 2016OlympicsTests */,
+				805F965118EED0EF009E845D /* Frameworks */,
+				805F965018EED0EF009E845D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805F965018EED0EF009E845D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805F964F18EED0EF009E845D /* 2016Olympics.app */,
+				805F967318EED0EF009E845D /* 2016OlympicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805F965118EED0EF009E845D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805F968C18EED111009E845D /* libBusinessLogicLayer.a */,
+				805F965218EED0EF009E845D /* Foundation.framework */,
+				805F965418EED0EF009E845D /* CoreGraphics.framework */,
+				805F965618EED0EF009E845D /* UIKit.framework */,
+				805F967418EED0EF009E845D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		805F965818EED0EF009E845D /* 2016Olympics */ = {
+			isa = PBXGroup;
+			children = (
+				805F966118EED0EF009E845D /* AppDelegate.h */,
+				805F966218EED0EF009E845D /* AppDelegate.m */,
+				805F966418EED0EF009E845D /* Main_iPhone.storyboard */,
+				805F966718EED0EF009E845D /* Main_iPad.storyboard */,
+				805F966A18EED0EF009E845D /* ViewController.h */,
+				805F966B18EED0EF009E845D /* ViewController.m */,
+				805F966D18EED0EF009E845D /* Images.xcassets */,
+				805F965918EED0EF009E845D /* Supporting Files */,
+			);
+			path = 2016Olympics;
+			sourceTree = "<group>";
+		};
+		805F965918EED0EF009E845D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				805F965A18EED0EF009E845D /* 2016Olympics-Info.plist */,
+				805F965B18EED0EF009E845D /* InfoPlist.strings */,
+				805F965E18EED0EF009E845D /* main.m */,
+				805F966018EED0EF009E845D /* 2016Olympics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		805F967A18EED0EF009E845D /* 2016OlympicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				805F968018EED0EF009E845D /* _016OlympicsTests.m */,
+				805F967B18EED0EF009E845D /* Supporting Files */,
+			);
+			path = 2016OlympicsTests;
+			sourceTree = "<group>";
+		};
+		805F967B18EED0EF009E845D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				805F967C18EED0EF009E845D /* 2016OlympicsTests-Info.plist */,
+				805F967D18EED0EF009E845D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805F964E18EED0EF009E845D /* 2016Olympics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805F968418EED0EF009E845D /* Build configuration list for PBXNativeTarget "2016Olympics" */;
+			buildPhases = (
+				805F964B18EED0EF009E845D /* Sources */,
+				805F964C18EED0EF009E845D /* Frameworks */,
+				805F964D18EED0EF009E845D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2016Olympics;
+			productName = 2016Olympics;
+			productReference = 805F964F18EED0EF009E845D /* 2016Olympics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805F967218EED0EF009E845D /* 2016OlympicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805F968718EED0EF009E845D /* Build configuration list for PBXNativeTarget "2016OlympicsTests" */;
+			buildPhases = (
+				805F966F18EED0EF009E845D /* Sources */,
+				805F967018EED0EF009E845D /* Frameworks */,
+				805F967118EED0EF009E845D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805F967918EED0EF009E845D /* PBXTargetDependency */,
+			);
+			name = 2016OlympicsTests;
+			productName = 2016OlympicsTests;
+			productReference = 805F967318EED0EF009E845D /* 2016OlympicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805F964718EED0EF009E845D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Sunic;
+				TargetAttributes = {
+					805F967218EED0EF009E845D = {
+						TestTargetID = 805F964E18EED0EF009E845D;
+					};
+				};
+			};
+			buildConfigurationList = 805F964A18EED0EF009E845D /* Build configuration list for PBXProject "2016Olympics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 805F964618EED0EF009E845D;
+			productRefGroup = 805F965018EED0EF009E845D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805F964E18EED0EF009E845D /* 2016Olympics */,
+				805F967218EED0EF009E845D /* 2016OlympicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805F964D18EED0EF009E845D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805F966918EED0EF009E845D /* Main_iPad.storyboard in Resources */,
+				805F966E18EED0EF009E845D /* Images.xcassets in Resources */,
+				805F966618EED0EF009E845D /* Main_iPhone.storyboard in Resources */,
+				805F965D18EED0EF009E845D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805F967118EED0EF009E845D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805F967F18EED0EF009E845D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805F964B18EED0EF009E845D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805F966C18EED0EF009E845D /* ViewController.m in Sources */,
+				805F966318EED0EF009E845D /* AppDelegate.m in Sources */,
+				805F965F18EED0EF009E845D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805F966F18EED0EF009E845D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805F968118EED0EF009E845D /* _016OlympicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805F967918EED0EF009E845D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805F964E18EED0EF009E845D /* 2016Olympics */;
+			targetProxy = 805F967818EED0EF009E845D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805F965B18EED0EF009E845D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805F965C18EED0EF009E845D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		805F966418EED0EF009E845D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805F966518EED0EF009E845D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		805F966718EED0EF009E845D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805F966818EED0EF009E845D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		805F967D18EED0EF009E845D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805F967E18EED0EF009E845D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805F968218EED0EF009E845D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		805F968318EED0EF009E845D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		805F968518EED0EF009E845D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2016Olympics/2016Olympics-Prefix.pch";
+				INFOPLIST_FILE = "2016Olympics/2016Olympics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		805F968618EED0EF009E845D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2016Olympics/2016Olympics-Prefix.pch";
+				INFOPLIST_FILE = "2016Olympics/2016Olympics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		805F968818EED0EF009E845D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2016Olympics.app/2016Olympics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2016Olympics/2016Olympics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2016OlympicsTests/2016OlympicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		805F968918EED0EF009E845D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2016Olympics.app/2016Olympics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2016Olympics/2016Olympics-Prefix.pch";
+				INFOPLIST_FILE = "2016OlympicsTests/2016OlympicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805F964A18EED0EF009E845D /* Build configuration list for PBXProject "2016Olympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805F968218EED0EF009E845D /* Debug */,
+				805F968318EED0EF009E845D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805F968418EED0EF009E845D /* Build configuration list for PBXNativeTarget "2016Olympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805F968518EED0EF009E845D /* Debug */,
+				805F968618EED0EF009E845D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		805F968718EED0EF009E845D /* Build configuration list for PBXNativeTarget "2016OlympicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805F968818EED0EF009E845D /* Debug */,
+				805F968918EED0EF009E845D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 805F964718EED0EF009E845D /* Project object */;
+}
